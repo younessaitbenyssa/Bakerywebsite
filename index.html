@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/233edd5d97.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section class="conta" id="conts">
+            <img src="images/baklog.png" alt="">
+            <header class="head">
+                <div class="bloc" id="blc">
+                    <div class="shr"></div>
+                    <nav class="navbar">
+                        <a href="#">Home</a>
+                        <a href="#abt">About</a>
+                        <a href="#serve">Services</a>
+                        <a href="#fft">Contact</a>
+                        <a href="#men">Menu</a>
+                    </nav>
+                    <div class="new">
+                    <div class="ico">
+                        <a href="login.html" target="_blank" class="i"><i class='bx bx-user'></i></a>
+                        <label for="" class="lb">My Account</label>
+                    </div>
+                    <div class="ico">
+                        <a href="cart.html" target="_blank" class ="i"><i class='bx bx-cart-alt'><span class="nbrcrt" id="nbrt"></span></i></a>  
+                        <label for="" class="lb">Cart</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="hide" onclick="hidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+            <h1 class="fhead1">Welcom to our bakery</h1>
+            <h1 class="fhead">❝ We Bake The World <br> Better Place  ❞</h1>
+    </section>
+    <section class="about" id="abt">
+        <img src="images/croissa.jpg" alt="croissant" >
+        <img src="images/cake.jpg" alt="cake">
+            <div class="ab"><span class="sp">About Us</span> <br>
+                <span class="pa">Welcome to Golden Bakery, where we craft delicious delights to satisfy your sweet cravings!
+                At Golden Bakery, we're passionate about baking the finest treats using only the freshest ingredients 
+                and traditional techniques passed downthrough generations. From fluffy pastries to mouthwatering cakes, each creation is made with 
+                love and attention to detail.</span>
+            </div>
+    </section>
+    <a href="#conts"><div id="flesh"><i class='bx bx-up-arrow-circle'></i></a></div>
+    <section class="services" id="serve">
+            <div class="jmaa3">
+                <h1 id="sre4">What Do We Offer For You?</h1>
+                <p>Welcome to Our Bakery, where quality meets convenience. 
+                    Enjoy our premium baked goods delivered promptly to your 
+                    doorstep. Personalize your order to your taste and dietary 
+                    needs. Experience excellence with Golden Bakery today!</p>
+                <div class="sr">
+                        <div class="dov">
+                            <div class="in">
+                            <i class="fa-solid fa-medal"></i>
+                            </div>
+                            <h1 class="fhead">Best quality</h1>
+                            <span>Top-quality treats, handcrafted with care using the finest ingredients. Indulge in perfection today</span>
+                        </div>
+                        <div class="dov">
+                            <div class="in">
+                            <i class='bx bxs-truck' ></i>
+                            </div>
+                            <h1 class="fhead">Home Delivry</h1>
+                            <span>Fast and fresh delivery! Get your bakery favorites delivered swiftly to your doorstep</span>
+                        </div> 
+                        <div class="dov">
+                            <div class="in">
+                            <i class='bx bx-customize' ></i>
+                            </div>
+                            <h1 class="fhead">Customizing</h1>
+                            <span>Customize your treats online! Craft your perfect bakery creations with our easy-to-use customization options</span>
+                        </div>
+                        <div class="dov">
+                            <div class="in">
+                            <i class='bx bx-cart-add' ></i>
+                            </div>
+                            <h1 class="fhead">Online Order</h1>
+                            <span>Order online for convenience! Browse our delicious offerings and place your order with ease from the comfort of your home</span>
+                        </div>
+                 </div>
+            </div>
+            <div class="oth">
+                <div class="midiv">
+                    <div class="hidiv">    
+                    </div>
+                    <div class="img2">
+                        <img src="images/service-1.jpg" alt="">
+                    </div>
+                    <div class="img1">
+                        <img src="images/about-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="Menu" id="men">
+           <div class="menudiv">
+                <img src="images/croissant.png" alt="">
+                <div class="eyeg" id="cheg1">
+                    <a href="#croissan"><img src="images/eye.png" alt="" id="eye1"></a>
+                </div>
+                <div class="pricing">$1-20$</div>
+                <br> <br>   
+                <span class="lll">Croissant</span>
+                <br>
+                <span style="font-size: 20px;">piece of light crescent-shaped pastry</span>
+           </div>
+           <div class="menudiv">
+                <img src="images/cakemenu.jpg" alt="">
+                    <div class="eyeg">
+                <a href="#prd"><img src="images/eye.png" alt="" id="eye1"></a>
+                    </div>
+                <div class="pricing">$20-140$</div>
+                <br> <br>
+                <span class="lll">Cake</span>
+                <br>
+                <span style="font-size: 20px;"> Moist, flavorful, and expertly crafted</span>
+           </div>
+           <div class="menudiv">
+                <img src="images/bread.jpg" alt="">
+                <div class="eyeg">
+                    <a href="#bread"><img src="images/eye.png" alt="" id="eye1"></a>
+                </div>
+                <div class="pricing">$7-80$</div>
+                <br> <br>
+                <span class="lll">Bread</span>
+                <br>
+                <span style="font-size: 20px;">fresh, artisanal, wholesome</span>
+           </div>
+    </section>
+    <div class="notify" id="ntf"> <i class="fa-solid fa-check"></i> The product has been added successfully to your cart</div>
+    <div class="container">
+    <section class="allprd" id="croissan">
+            <div class="products" data-name="p-1">
+                <img src="images/cr1.png" alt="">
+                <span class="spn1">Babka</span>
+                <span class="spn">2.00 $</span>
+                <button class="b1" onclick="addtocart(0)">ADD TO CART</i></button>
+            </div>
+            <div class="products" data-name="p-2">
+                <img src="images/cr2.png" alt="">
+                <span class="spn1">Brioché au chocolat</span>
+                <span class="spn">4.00 $</span>
+                <button class="b1" onclick="addtocart(1)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-3">
+                <img src="images/cr3.png" alt="">
+                <span class="spn1">Cinnamon</span>
+                <span class="spn">1.00 $</span>
+                <button class="b1" onclick="addtocart(2)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-4">
+                <img src="images/cr4.png" alt="">
+                <span class="spn1">Chocolat</span>
+                <span class="spn">3.00 $</span>
+                <button class="b1" onclick="addtocart(3)">ADD TO CART</button>
+            </div>
+                <div class="products" data-name="p-5">
+                    <img src="images/cr5.png" alt="">
+                    <span class="spn1">Escargo</span>
+                    <span class="spn">5.00 $</span>
+                    <button class="b1" onclick="addtocart(4)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-6">
+                    <img src="images/cr6.png" alt="">
+                    <span class="spn1">Lafayette</span>
+                    <span class="spn">10.00 $</span>
+                    <button class="b1" onclick="addtocart(5)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-7">
+                    <img src="images/cr7.png" alt="">
+                    <span class="spn1">pain de suisse</span>
+                    <span class="spn">7.00 $</span>
+                    <button class="b1" onclick="addtocart(6)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-8">
+                    <img src="images/cr8.png" alt="">
+                    <span class="spn1">Strawberry</span>
+                    <span class="spn">13.00 $</span>
+                    <button class="b1" onclick="addtocart(7)">ADD TO CART</button>
+                </div>
+    </section>
+    </div>
+    <div class="products-preview">
+        <div class="preview" data-target="p-1">
+            <i class='bx bx-x'></i>
+            <img src="images/cr1.png" alt="">
+            <h1>Babka</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$2.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(0)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-2">
+            <i class='bx bx-x'></i>
+            <img src="images/cr2.png" alt="">
+            <h1>Brioché au chocolat</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$4.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(1)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-3">
+            <i class='bx bx-x'></i>
+            <img src="images/cr3.png" alt="">
+            <h1>Cinnamon</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$1.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(2)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-4">
+            <i class='bx bx-x'></i>
+            <img src="images/cr4.png" alt="">
+            <h1>Chocolat</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$3.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(3)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-5">
+            <i class='bx bx-x'></i>
+            <img src="images/cr5.png" alt="">
+            <h1>Escargo</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$5.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(4)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-6">
+            <i class='bx bx-x'></i>
+            <img src="images/cr6.png" alt="">
+            <h1>Lafayette</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$10.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(5)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-7">
+            <i class='bx bx-x'></i>
+            <img src="images/cr7.png" alt="">
+            <h1>pain de suisse</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$7.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(6)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-8">
+            <i class='bx bx-x'></i>
+            <img src="images/cr8.png" alt="">
+            <h1>Strawberry</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$13.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(7)">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <section class="allprd" id="prd">
+            <div class="products" data-name="p-9">
+                <img src="images/c1.png" alt="">
+                <span class="spn1">Crimy cake</span>
+                <span class="spn">9.00 $</span>
+                <button class="b1" onclick="addtocart(8)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-10">
+                <img src="images/c2.png" alt="">
+                <span class="spn1">Coconut Cake</span>
+                <span class="spn">7.00 $</span>
+                <button class="b1" onclick="addtocart(9)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-11">
+                <img src="images/c3.png" alt="">
+                <span class="spn1">Banana Cake</span>
+                <span class="spn">13.00 $</span>
+                <button class="b1" onclick="addtocart(10)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-12">
+                <img src="images/c4.png" alt="">
+                <span class="spn1">Chocolat Cake</span>
+                <span class="spn">10.00 $</span>
+                <button class="b1" onclick="addtocart(11)">ADD TO CART</button>
+            </div>
+                <div class="products" data-name="p-13">
+                    <img src="images/c5.png" alt="">
+                    <span class="spn1">Strawbery Cake</span>
+                    <span class="spn">17.00 $</span>
+                    <button class="b1" onclick="addtocart(12)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-14">
+                    <img src="images/c6.png" alt="">
+                    <span class="spn1">Caramel Cake</span>
+                    <span class="spn">14.00 $</span>
+                    <button class="b1" onclick="addtocart(13)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-15">
+                    <img src="images/c7.png" alt="">
+                    <span class="spn1">Birthday Cake</span>
+                    <span class="spn">20.00 $</span>
+                    <button class="b1" onclick="addtocart(14)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-16">
+                    <img src="images/c8.png" alt="">
+                    <span class="spn1">flower Cake</span>
+                    <span class="spn">12.00 $</span>
+                    <button class="b1" onclick="addtocart(15)">ADD TO CART</button>
+                </div>
+    </section>
+    </div>
+    <div class="products-preview">
+        <div class="preview" data-target="p-9">
+            <i class='bx bx-x'></i>
+            <img src="images/c1.png" alt="">
+            <h1>Crimy cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$9.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(8)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-10">
+            <i class='bx bx-x'></i>
+            <img src="images/c2.png" alt="">
+            <h1>Coconut Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$7.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(9)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-11">
+            <i class='bx bx-x'></i>
+            <img src="images/c3.png" alt="">
+            <h1>Banana Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$13.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(10)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-12">
+            <i class='bx bx-x'></i>
+            <img src="images/c4.png" alt="">
+            <h1>Chocolat Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$10.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(11)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-13">
+            <i class='bx bx-x'></i>
+            <img src="images/c5.png" alt="">
+            <h1>Strawberry cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$17.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(12)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-14">
+            <i class='bx bx-x'></i>
+            <img src="images/c6.png" alt="">
+            <h1>Caramel Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$14.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(13)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-15">
+            <i class='bx bx-x'></i>
+            <img src="images/c7.png" alt="">
+            <h1>Birthday Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$20.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(14)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="preview" data-target="p-16">
+            <i class='bx bx-x'></i>
+            <img src="images/c8.png" alt="">
+            <h1>flower Cake</h1>
+            <h2>Ingredients</h2>
+            <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                milk , limon , fruits . </p>
+            <h3 class="price">$12.00</h3>
+            <div class="miba">
+            <button id="b2">BUY NOW</button>
+            <button id="b3" onclick="addtocart(15)">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <section class="allprd" id="bread">
+            <div class="products" data-name="p-17">
+                <img src="images/br1.png" alt="">
+                <span class="spn1">Baguette</span>
+                <span class="spn">0.5 $</span>
+                <button class="b1" onclick="addtocart(16)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-18">
+                <img src="images/br2.png" alt="">
+                <span class="spn1">Whole grain</span>
+                <span class="spn">4.75 $</span>
+                <button class="b1" onclick="addtocart(17)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-19">
+                <img src="images/br3.png" alt="">
+                <span class="spn1">Challah</span>
+                <span class="spn">6.00 $</span>
+                <button class="b1" onclick="addtocart(18)">ADD TO CART</button>
+            </div>
+            <div class="products" data-name="p-20">
+                <img src="images/br4.png" alt="">
+                <span class="spn1">Ciabata</span>
+                <span class="spn">5.00 $</span>
+                <button class="b1" onclick="addtocart(19)">ADD TO CART</button>
+            </div>
+       
+                <div class="products" data-name="p-21">
+                    <img src="images/br5.png" alt="">
+                    <span class="spn1">Flat</span>
+                    <span class="spn">1.00 $</span>
+                    <button class="b1" onclick="addtocart(20)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-22">
+                    <img src="images/br6.png" alt="">
+                    <span class="spn1">Sprouted grain</span>
+                    <span class="spn">4.45 $</span>
+                    <button class="b1" onclick="addtocart(21)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-23">
+                    <img src="images/br7.png" alt="">
+                    <span class="spn1">Rye</span>
+                    <span class="spn">3.65 $</span>
+                    <button class="b1" onclick="addtocart(22)">ADD TO CART</button>
+                </div>
+                <div class="products" data-name="p-24">
+                    <img src="images/br8.png" alt="">
+                    <span class="spn1">White</span>
+                    <span class="spn">2.00 $</span>
+                    <button class="b1" onclick="addtocart(23)">ADD TO CART</button>
+                </div>
+            </section>
+        </div>
+        <div class="products-preview">
+            <div class="preview" data-target="p-17">
+                <i class='bx bx-x'></i>
+                <img src="images/br1.png" alt="">
+                <h1>Baguette</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$0.5</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(16)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-18">
+                <i class='bx bx-x'></i>
+                <img src="images/br2.png" alt="">
+                <h1>Whole grain</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$4.75</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(17)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-19">
+                <i class='bx bx-x'></i>
+                <img src="images/br3.png" alt="">
+                <h1>Challah</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$6.00</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(18)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-20">
+                <i class='bx bx-x'></i>
+                <img src="images/br4.png" alt="">
+                <h1>Ciabata</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$5.00</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(19)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-21">
+                <i class='bx bx-x'></i>
+                <img src="images/br5.png" alt="">
+                <h1>Flat</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$1.00</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(20)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-22">
+                <i class='bx bx-x'></i>
+                <img src="images/br6.png" alt="">
+                <h1>Sprouted grain</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$4.45</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(21)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-23">
+                <i class='bx bx-x'></i>
+                <img src="images/br7.png" alt="">
+                <h1>Rye</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$3.65</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(22)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="preview" data-target="p-24">
+                <i class='bx bx-x'></i>
+                <img src="images/br8.png" alt="">
+                <h1>White</h1>
+                <h2>Ingredients</h2>
+                <p>flour , chocolat , crim , strawberry , butter , salt , sugar 
+                    milk , limon , fruits . </p>
+                <h3 class="price">$2.00</h3>
+                <div class="miba">
+                <button id="b2">BUY NOW</button>
+                <button id="b3" onclick="addtocart(23)">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    <div class="footer" id="fft">
+        <div class="kolchi">
+                <img src="images/baklog.png" alt="">
+            <div class="resum" >
+                <h2>Contact us</h2>
+                <i class='bx bxs-phone' style="color: grey;">   0646578394</i> 
+                <i class="fa-solid fa-fax" style="color: gray; font-size: 13px;">  0521998630 </i>
+                <i class='bx bxl-gmail' style="color: grey;">  bakery@gmail.com</i>
+                <i class='bx bx-map' style="color: grey;">  ville rue numero quartier</i>
+            </div>
+            <div class="resum">
+                <h2>Content</h2>
+                <a href="#conts" style="color: grey;">Home</a>
+                <a href="#abt" style="color: grey;">About Us</a>
+                <a href="#serve" style="color: grey;">Services</a>
+                <a href="#men" style="color: grey;">Menu</a>
+            </div>
+            <div class="resum">
+                <h2>Get help</h2>
+                <a href="#conts" style="color: grey;">FAQ</a>
+                <a href="#abt" style="color: grey;">Payment options</a>
+                <a href="#serve" style="color: grey;">Shipping</a>
+                <a href="#men" style="color: grey;">Returns</a>
+            </div>
+            <div class="resum">
+                <h2>Activities</h2>
+                <a href="#" style="color: gray;">Forniture</a>
+                <a href="#" style="color: gray;">Carterer</a>
+                <a href="#" style="color: gray;">iamgination</a>
+                <a href="#" style="color: gray;">delecious</a>
+            </div>
+         </div>
+    <div class="line"></div>
+    <div class="follow">
+        <div class="acont">
+        <a href=""><i class='bx bxl-facebook'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <a href=""><i class='bx bx-x'></i></a>
+        <a href=""><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
